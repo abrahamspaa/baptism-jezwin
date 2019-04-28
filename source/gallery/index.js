@@ -8,7 +8,7 @@ export function initViewer ( log ) {
 
   const options = {
     // inline: true,
-    url: 'data-original',
+  
     ready: (e) => {
       log(e.type);
     },
