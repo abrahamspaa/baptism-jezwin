@@ -8,7 +8,7 @@ export function initViewer ( log ) {
 
   const options = {
     // inline: true,
-  
+    url: 'data-original',
     ready: (e) => {
       log(e.type);
     },
@@ -31,10 +31,10 @@ export function initViewer ( log ) {
       log(e.type);
     },
     movable: false,
-    rotatable: false,
+    rotatable: true,
     scalable: false,
     fullscreen: false,
-    interval: 2000
+    interval: 1000
   };
 
   new Viewer(pictures, options);
