@@ -5,7 +5,7 @@ import debug from 'debug';
 const log = debug('app:log');
 
 log(ENV);
-
+console.log(ENV);
 if (ENV !== 'production') {
   // Enable the logger.
   debug.enable('*');
@@ -60,4 +60,4 @@ window.onload = () => {
   };
 
 materiallize();
-initViewer();
+initViewer(log);

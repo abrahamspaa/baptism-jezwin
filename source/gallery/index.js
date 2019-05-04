@@ -4,7 +4,7 @@ import './index.css';
 
 export function initViewer ( log ) {
 
-  const pictures = document.querySelector('.docs-pictures');
+  const pictures = document.querySelector('.viewer-pictures-element');
 
   const options = {
     // inline: true,

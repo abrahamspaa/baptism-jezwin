@@ -48,9 +48,6 @@ p {
   }
 }
 
-.icon-block {
-  padding: 0 15px;
-}
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -61,9 +58,4 @@ footer.page-footer {
 
 .teal-text.text-lighten-2 {
   color: #15265a !important;
-}
-
-#map {
-height: 400px;  /* The height is 400 pixels */
-width: 100%;  /* The width is the width of the web page */
 }
